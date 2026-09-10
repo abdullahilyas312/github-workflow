@@ -9,9 +9,18 @@ jobs:
       - name: setup node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: npm
       - name: installing node modules
         run: npm ci
       - name: build next.js application
         run: npm run build
+            # Add this step directly underneath your build execution command
+      - name: Upload production build files
+        uses: actions/upload-artifact@v4
+        with:
+          name: nextjs-build-artifact   # The download package name
+          path: |
+            .next
+            public
+            package.json
