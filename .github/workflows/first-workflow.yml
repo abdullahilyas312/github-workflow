@@ -10,7 +10,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: npm
       - name: installing node modules
-        run: npm install
+        run: npm ci
       - name: build next.js application
         run: npm run build
