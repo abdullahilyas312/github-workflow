@@ -32,7 +32,7 @@ jobs:
       - name: Download compiled bundle
         uses: actions/download-artifact@v4
         with:
-          name: nextjs-build-bundle
+          name: nextjs-build-artifact
 
       - name: Execute cloud deployment
         run: |
