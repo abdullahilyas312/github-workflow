@@ -1,0 +1,22 @@
+export const ROUTES_CONSTANTS = {
+    HOME: "/",
+    STRAPS: "/straps",
+    ACCESSORIES: "/accessories",
+    COLLECTION: "/collection",
+    DEALS: "/deals",
+    CHECKOUT: "/checkout",
+    CHECKOUT_SUCCESS: "/checkout/success",
+    CART: "/cart",
+    ABOUT: "/about",
+    FAQ: "/faq",
+    PRIVACY: "/privacy",
+    TERMS: "/terms",
+    CATEGORIES: "/categories",
+    PROFILE: "/profile",
+    ORDERS: "/profile/orders",
+    FAVOURITES: "/profile/favourites",
+    SETTINGS: "/profile/settings",
+    CREATE_ACCOUNT: "/create-account",
+    LOGIN: "/login",
+  };
+  

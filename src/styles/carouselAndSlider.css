@@ -1,0 +1,58 @@
+/* HeroCarousel.css */
+
+.custom-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #e5e5e5;
+    opacity: 1;
+    border-radius: 9999px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+  }
+  
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: #fbbf24;
+  }
+  
+  .custom-pagination .swiper-pagination-bullet-active::before {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    top: -9px;
+    left: -9px;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #fbbf24;
+    border-radius: 9999px;
+    z-index: -1;
+  }
+  
+
+  .green-custom-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #e5e5e5;
+    opacity: 1;
+    border-radius: 9999px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+  }
+
+  .green-custom-pagination .swiper-pagination-bullet-active {
+    background-color: #00B0AD;
+  }
+
+  .green-custom-pagination .swiper-pagination-bullet-active::before {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    top: -9px;
+    left: -9px;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #00B0AD;
+    border-radius: 9999px;
+    z-index: -1;
+  }

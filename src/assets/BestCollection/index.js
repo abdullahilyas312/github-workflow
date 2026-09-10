@@ -1,0 +1,9 @@
+export {default as ProImg1} from "./ProImg1.jpg";
+export {default as ProImg2} from "./ProImg2.jpg";
+export {default as ProImg3} from "./ProImg3.jpg";
+export {default as ProImg4} from "./ProImg4.jpg";
+export {default as ProImg5} from "./ProImg5.jpg";
+export {default as ProImg6} from "./ProImg6.jpg";
+export {default as ProImg7} from "./ProImg7.jpg";
+export {default as ProImg8} from "./ProImg8.jpg";
+export {default as ProImg9} from "./ProImg9.jpg";
